@@ -4,6 +4,7 @@ jdk:
   - oraclejdk9
 
 before_script:
+  - gradle -b wrapper.gradle wrapper
   - gradle wrapper
   - chmod +x gradlew
 script:
