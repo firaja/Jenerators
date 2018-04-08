@@ -195,6 +195,7 @@ public abstract class AbstractGenerator<T> implements Generator<T>
 		{
 			throw new IllegalArgumentException("New limit cannot be less than the current one.");
 		}
+		this.hasLimit = true;
 		this.limit = limit;
 	}
 }

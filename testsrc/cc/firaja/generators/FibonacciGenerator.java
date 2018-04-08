@@ -20,7 +20,7 @@ public class FibonacciGenerator
 	@Before
 	public void setup()
 	{
-
+		//
 	}
 
 	@Test

@@ -34,6 +34,10 @@ public abstract class MemoryListGenerator<T> extends AbstractGenerator<T> implem
 		memory.add(new State(last()));
 	}
 
+	/**
+	 *
+	 * @throws NullPointerException if
+	 */
 	protected T getResult(final int c)
 	{
 		Objects.requireNonNull(c, "c cannot be null");
