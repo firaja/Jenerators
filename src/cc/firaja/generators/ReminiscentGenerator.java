@@ -4,8 +4,6 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 
-import cc.firaja.generators.exceptions.NoSourceVariableException;
-
 /**
  * @author David Bertoldi
  */
@@ -32,7 +30,7 @@ public abstract class ReminiscentGenerator<T> extends AbstractGenerator<T> imple
 		{
 			return vars.get(varName);
 		}
-		throw new NoSourceVariableException("No definition for variable " + varName);
+		throw new NullPointerException("No definition for variable " + varName);
 	}
 
 

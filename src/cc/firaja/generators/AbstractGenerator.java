@@ -4,7 +4,12 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
+ * Stateless abstract generator.
+ *
  * @author David Bertoldi
+ * @version 0.1
+ * @see Generator
+ * @since 0.1
  */
 public abstract class AbstractGenerator<T> implements Generator<T>
 {

@@ -15,7 +15,7 @@ import java.util.Iterator;
  * </p>
  *
  * @author David Bertoldi
- * @version 1.0
+ * @version 0.1
  * @see Iterator
  * @see Iterable
  * @since 1.0

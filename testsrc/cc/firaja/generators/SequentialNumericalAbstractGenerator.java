@@ -176,4 +176,33 @@ public class SequentialNumericalAbstractGenerator
 		assertEquals(2, j);
 	}
 
+	@Test(expected = IllegalArgumentException.class)
+	public void testNegativeLimitInConstructor()
+	{
+		// GIVEN
+		sequentialNumericalAbstractGenerator = new AbstractGenerator<Integer>(-1)
+		{
+			@Override
+			public Integer generate()
+			{
+				return null;
+			}
+		};
+
+		// WHEN
+
+		// THEN
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void testNegativeLimitInResize()
+	{
+		// GIVEN
+		sequentialNumericalAbstractGenerator.resize(-1);
+
+		// WHEN
+
+		// THEN
+	}
+
 }
