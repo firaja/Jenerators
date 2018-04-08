@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/firaja/java-generators.svg?branch=master)](https://travis-ci.org/firaja/java-generators) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/630b3107e8dd859a9d2a/maintainability)](https://codeclimate.com/github/firaja/java-generators/maintainability) 
 [![codecov](https://codecov.io/gh/firaja/java-generators/branch/master/graph/badge.svg)](https://codecov.io/gh/firaja/java-generators)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A Java library for building generators.
 
