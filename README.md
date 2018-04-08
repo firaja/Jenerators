@@ -34,6 +34,7 @@ for(Long i : fibonacci){
 	System.out.println(i);
 }
 ```
+ <sup>(the *n*-th element of the Fibonacci sequence is calculated during the *n*-th iteration of the *for* loop)</sup>
 ## Documentation
 
 The javadoc API can be found in this [page](https://firaja.github.io/java-generators/doc)
