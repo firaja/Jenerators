@@ -4,6 +4,10 @@ jdk:
   - oraclejdk9
 
 before_install:
+  - wget https://services.gradle.org/distributions/gradle-4.6-bin.zip
+  - unzip gradle-4.6-bin.zip
+  - export GRADLE_HOME=$PWD/gradle-4.6
+  - export PATH=$GRADLE_HOME/bin:$PATH
   - gradle -b wrapper.gradle wrapper
 
 before_script:
