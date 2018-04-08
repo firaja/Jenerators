@@ -3,7 +3,6 @@ package cc.firaja.generators;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author David Bertoldi
@@ -44,7 +43,7 @@ public abstract class ReminiscentGenerator<T> extends AbstractGenerator<T> imple
 			else
 			{
 				throw new ClassCastException("Cannot cast \"" + varName + "\" of type " +
-						result != null ? result.getClass().getName() : "null" +
+						result.getClass().getName() +
 						" value to " + clazz.getName());
 			}
 		}
@@ -54,43 +53,43 @@ public abstract class ReminiscentGenerator<T> extends AbstractGenerator<T> imple
 
 	public long getLong(final String varName)
 	{
-		return (long) get(varName, Long.class);
+		return get(varName, Long.class);
 	}
 
 
 	public int getInt(final String varName)
 	{
-		return (int) get(varName, Integer.class);
+		return get(varName, Integer.class);
 	}
 
 
 	public double getDouble(final String varName)
 	{
-		return (double) get(varName, Double.class);
+		return get(varName, Double.class);
 	}
 
 
 	public boolean getBool(final String varName)
 	{
-		return (boolean) get(varName, Boolean.class);
+		return get(varName, Boolean.class);
 	}
 
 
 	public String getString(final String varName)
 	{
-		return (String) get(varName, String.class);
+		return get(varName, String.class);
 	}
 
 
 	public float getFloat(final String varName)
 	{
-		return (float) get(varName, Float.class);
+		return get(varName, Float.class);
 	}
 
 
 	public char getChar(final String varName)
 	{
-		return (char) get(varName, Character.class);
+		return get(varName, Character.class);
 	}
 
 
