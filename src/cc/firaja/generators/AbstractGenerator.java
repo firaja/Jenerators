@@ -58,13 +58,18 @@ public abstract class AbstractGenerator<T> implements Generator<T>
 	 * is re-initialized to this state.
 	 *
 	 * @param copy the generator to be copied.
+	 * @throws IllegalArgumentException if parameter copy is null
 	 */
 	public AbstractGenerator(final AbstractGenerator<T> copy)
 	{
+		if (copy == null)
+		{
+			throw new IllegalArgumentException("Argument cannot be null");
+		}
 		this.hasLimit = copy.hasLimit;
 		this.limit = copy.limit;
 		this.cursor = copy.cursor;
-
+		this.result = copy.result;
 		storeOriginals();
 	}
 

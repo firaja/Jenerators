@@ -205,4 +205,52 @@ public class SequentialNumericalAbstractGenerator
 		// THEN
 	}
 
+	@Test
+	public void testConstructorCopy()
+	{
+		// GIVEN
+		Generator<Integer> newGenerator;
+
+		sequentialNumericalAbstractGenerator.next();
+		sequentialNumericalAbstractGenerator.next();
+		sequentialNumericalAbstractGenerator.next();
+		int lastResult = sequentialNumericalAbstractGenerator.last();
+
+
+		// WHEN
+		newGenerator = new AbstractGenerator<Integer>(sequentialNumericalAbstractGenerator)
+		{
+			@Override
+			public Integer generate()
+			{
+				return c();
+			}
+		};
+		int nextResult = sequentialNumericalAbstractGenerator.next();
+
+		// THEN
+		assertEquals(lastResult, (int) newGenerator.last());
+		assertEquals(nextResult, (int) newGenerator.next());
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void testConstructorNullCopy()
+	{
+		// GIVEN
+
+
+		// WHEN
+		new AbstractGenerator<Object>(null)
+		{
+			@Override
+			public Object generate()
+			{
+				return null;
+			}
+		};
+
+		// THEN
+
+	}
+
 }
