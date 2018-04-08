@@ -81,7 +81,7 @@ public class MemoryListUnitTest
 
 		// WHEN
 		classUnderTest.getResult(50);
-		
+
 	}
 
 }
