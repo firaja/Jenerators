@@ -1,6 +1,6 @@
 # java-generators
 
-![Travis](https://img.shields.io/travis/firaja/java-generators.svg)
+![GitHub release](https://img.shields.io/github/release/firaja/java-generators.svg) ![Travis](https://img.shields.io/travis/firaja/java-generators.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/630b3107e8dd859a9d2a/maintainability)](https://codeclimate.com/github/firaja/java-generators/maintainability) [![codecov](https://codecov.io/gh/firaja/java-generators/branch/master/graph/badge.svg)](https://codecov.io/gh/firaja/java-generators)
 
 A Java library for building generators.
 
