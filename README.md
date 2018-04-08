@@ -1,5 +1,7 @@
 # java-generators
 
+![Travis](https://img.shields.io/travis/firaja/java-generators.svg)
+
 A Java library for building generators.
 
 ## Documentation

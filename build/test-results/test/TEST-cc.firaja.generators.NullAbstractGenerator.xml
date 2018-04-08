@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cc.firaja.generators.NullAbstractGenerator" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-04-08T14:33:08" hostname="localhost.localdomain" time="0.008">
+<testsuite name="cc.firaja.generators.NullAbstractGenerator" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-04-08T14:47:17" hostname="localhost.localdomain" time="0.012">
   <properties/>
-  <testcase name="testFirstIsNull" classname="cc.firaja.generators.NullAbstractGenerator" time="0.0"/>
-  <testcase name="testAllNull" classname="cc.firaja.generators.NullAbstractGenerator" time="0.006"/>
+  <testcase name="testFirstIsNull" classname="cc.firaja.generators.NullAbstractGenerator" time="0.001"/>
+  <testcase name="testAllNull" classname="cc.firaja.generators.NullAbstractGenerator" time="0.009"/>
   <testcase name="testReset" classname="cc.firaja.generators.NullAbstractGenerator" time="0.0"/>
   <testcase name="testExceed" classname="cc.firaja.generators.NullAbstractGenerator" time="0.0"/>
   <testcase name="testIteratorAndCursor" classname="cc.firaja.generators.NullAbstractGenerator" time="0.0"/>
-  <testcase name="testIterator" classname="cc.firaja.generators.NullAbstractGenerator" time="0.001"/>
+  <testcase name="testIterator" classname="cc.firaja.generators.NullAbstractGenerator" time="0.0"/>
   <testcase name="testNumberOfIterations" classname="cc.firaja.generators.NullAbstractGenerator" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
