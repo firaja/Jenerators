@@ -1,6 +1,5 @@
 # java-generators
 
-[![GitHub (pre-)release](https://img.shields.io/github/release/firaja/java-generators/all.svg)](https://github.com/firaja/java-generators/releases)
 [![Build Status](https://travis-ci.org/firaja/java-generators.svg?branch=master)](https://travis-ci.org/firaja/java-generators) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/630b3107e8dd859a9d2a/maintainability)](https://codeclimate.com/github/firaja/java-generators/maintainability) 
 [![codecov](https://codecov.io/gh/firaja/java-generators/branch/master/graph/badge.svg)](https://codecov.io/gh/firaja/java-generators)
