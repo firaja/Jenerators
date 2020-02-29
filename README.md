@@ -1,4 +1,4 @@
-# java-generators
+# Jenerators
 
 [![Build Status](https://travis-ci.org/firaja/java-generators.svg?branch=master)](https://travis-ci.org/firaja/java-generators) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/630b3107e8dd859a9d2a/maintainability)](https://codeclimate.com/github/firaja/java-generators/maintainability) 
